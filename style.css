@@ -1253,3 +1253,199 @@ button:focus-visible {
     font-size: 0.8125rem;
   }
 }
+
+/* ============================================
+   ALERT BAR (тривога + погода)
+   ============================================ */
+.alert-bar {
+  background: #1a1a2e;
+  color: #e2e8f0;
+  font-size: 0.8125rem;
+  padding: 6px 0;
+  position: sticky;
+  top: 0;
+  z-index: 200;
+}
+.alert-bar__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.alert-bar__status { display: flex; align-items: center; gap: 8px; font-weight: 500; }
+.alert-bar__dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: #6b7280;
+  flex-shrink: 0;
+  transition: background 0.3s;
+}
+.alert-bar__dot--safe    { background: #22c55e; box-shadow: 0 0 6px #22c55e; }
+.alert-bar__dot--danger  { background: #ef4444; box-shadow: 0 0 6px #ef4444; animation: pulse 1s infinite; }
+.alert-bar__dot--loading { background: #6b7280; }
+.alert-bar__weather { color: #94a3b8; font-size: 0.8rem; }
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.5} }
+
+/* ============================================
+   CONTACTS SECTION
+   ============================================ */
+.contacts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+}
+.contact-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  transition: box-shadow 0.2s;
+}
+.contact-card:hover { box-shadow: 0 4px 20px rgba(0,91,187,0.1); }
+.contact-card__icon { font-size: 2rem; }
+.contact-card__name { font-size: 0.9375rem; font-weight: 600; color: var(--text); }
+.contact-card__phone {
+  font-size: 1.25rem; font-weight: 700;
+  color: var(--blue); text-decoration: none;
+  letter-spacing: 0.5px;
+}
+.contact-card__phone:hover { text-decoration: underline; }
+.contact-card__desc { font-size: 0.8125rem; color: var(--text-secondary); }
+
+/* ============================================
+   FAQ SECTION
+   ============================================ */
+.faq-list { display: flex; flex-direction: column; gap: 8px; max-width: 800px; margin: 0 auto; }
+.faq-item {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+}
+.faq-question {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--text);
+  text-align: left;
+  gap: 12px;
+  transition: background 0.2s;
+}
+.faq-question:hover { background: #f0f4ff; }
+.faq-icon {
+  font-size: 1.25rem;
+  color: var(--blue);
+  flex-shrink: 0;
+  transition: transform 0.25s;
+}
+.faq-item.open .faq-icon { transform: rotate(45deg); }
+.faq-answer {
+  padding: 0 20px 16px;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+.faq-answer[hidden] { display: none; }
+.faq-answer p { margin: 0; }
+.faq-answer a { color: var(--blue); }
+
+/* ============================================
+   NEWS → Telegram CTA
+   ============================================ */
+.news-tg-cta {
+  text-align: center;
+  margin-top: 32px;
+  padding: 28px;
+  background: linear-gradient(135deg, #eff6ff 0%, #f0fdf4 100%);
+  border-radius: 16px;
+  border: 1px solid #bfdbfe;
+}
+.news-tg-cta p {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  margin-bottom: 16px;
+}
+
+/* ============================================
+   ABOUT SEO TEXT
+   ============================================ */
+.about__seo-text {
+  margin-top: 40px;
+  padding: 24px 28px;
+  background: var(--surface);
+  border-radius: 14px;
+  border: 1px solid var(--border);
+}
+.about__seo-text h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: var(--text);
+}
+.about__seo-text p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 10px;
+}
+.about__seo-text p:last-child { margin-bottom: 0; }
+.about__seo-text a { color: var(--blue); }
+
+/* ============================================
+   SCROLL CTA BANNER
+   ============================================ */
+.scroll-cta {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 500;
+  width: calc(100% - 32px);
+  max-width: 480px;
+  animation: slideUp 0.4s ease;
+}
+.scroll-cta__inner {
+  background: #1e293b;
+  color: #f8fafc;
+  padding: 12px 16px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.25);
+  flex-wrap: wrap;
+}
+.scroll-cta__inner span { font-size: 0.9rem; flex: 1; }
+.scroll-cta__close {
+  background: none; border: none; color: #94a3b8;
+  cursor: pointer; font-size: 1rem; padding: 2px 6px;
+  border-radius: 6px;
+}
+.scroll-cta__close:hover { color: #f8fafc; background: rgba(255,255,255,0.1); }
+@keyframes slideUp { from { opacity:0; transform: translateX(-50%) translateY(20px); } to { opacity:1; transform: translateX(-50%) translateY(0); } }
+
+@media (max-width: 640px) {
+  .contacts-grid { grid-template-columns: 1fr 1fr; }
+  .alert-bar__weather { display: none; }
+  .scroll-cta__inner { flex-wrap: nowrap; }
+}
+
+/* Мітка "Нове" на картках */
+.news-card__recent {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #ef4444;
+  animation: pulse 1.5s infinite;
+  white-space: nowrap;
+}

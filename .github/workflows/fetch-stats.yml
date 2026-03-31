@@ -1,0 +1,27 @@
+name: Оновлення статистики підписників
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # щодня о 06:00 UTC (08:00 Київ)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Fetch subscriber counts
+        run: node scripts/fetch-stats.js
+      - name: Commit & push
+        run: |
+          git config user.name "Claw Bot"
+          git config user.email "bot@smila.online"
+          git add data/stats.json
+          git diff --staged --quiet || git commit -m "📊 Статистика підписників $(date -u '+%Y-%m-%d')"
+          git push

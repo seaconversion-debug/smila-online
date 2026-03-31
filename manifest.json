@@ -1,0 +1,31 @@
+{
+  "name": "СмілаОнлайн — Новини Сміла",
+  "short_name": "Новини Сміла",
+  "description": "Актуальні новини міста Сміла, Черкаська область",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#005BBB",
+  "lang": "uk",
+  "dir": "ltr",
+  "scope": "/",
+  "orientation": "portrait-primary",
+  "categories": ["news", "local"],
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='96' fill='%23005BBB'/><rect y='96' width='192' height='96' fill='%23FFD700'/><text x='96' y='115' text-anchor='middle' font-size='72' fill='white' font-family='Arial'>С</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Новини Сміла",
+      "short_name": "Новини",
+      "description": "Читати новини Сміли",
+      "url": "/#news",
+      "icons": []
+    }
+  ]
+}
