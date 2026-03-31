@@ -8,6 +8,8 @@ import { writeFileSync, readFileSync, existsSync } from 'fs';
 import { resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
+const SITE_URL = 'https://seaconversion-debug.github.io/smila-online';
+
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_FILE = resolve(__dirname, '../data/news.json');
 
