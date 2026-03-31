@@ -11,7 +11,9 @@
   <meta name="author" content="СмілаОнлайн">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <meta name="googlebot" content="index, follow">
-  <link rel="canonical" href="https://smila.online/">
+  <link rel="canonical" href="https://seaconversion-debug.github.io/smila-online/">
+  <link rel="alternate" hreflang="uk" href="https://seaconversion-debug.github.io/smila-online/">
+  <link rel="alternate" hreflang="x-default" href="https://seaconversion-debug.github.io/smila-online/">
   <meta name="geo.region" content="UA-71">
   <meta name="geo.placename" content="Сміла, Черкаська область">
   <meta name="geo.position" content="49.2239;31.8711">
@@ -21,13 +23,13 @@
 
   <!-- OPEN GRAPH -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://smila.online/">
+  <meta property="og:url" content="https://seaconversion-debug.github.io/smila-online/">
   <meta property="og:title" content="Новини Сміла сьогодні — актуальні події міста | СмілаОнлайн">
   <meta property="og:description" content="Новини Сміла онлайн: актуальні події, надзвичайні ситуації, влада, ЖКГ Смілянщини. Читай першим у Telegram @smila_novosti.">
-  <meta property="og:image" content="https://smila.online/og-image.jpg">
+  <meta property="og:image" content="https://seaconversion-debug.github.io/smila-online/og-image.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="СмілаОнлайн — новини міста Сміла">
+  <meta property="og:image:alt" content="СмілаОнлайн — новини міста Сміла, Черкаська область">
   <meta property="og:locale" content="uk_UA">
   <meta property="og:site_name" content="СмілаОнлайн">
 
@@ -35,7 +37,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Новини Сміла сьогодні | СмілаОнлайн">
   <meta name="twitter:description" content="Актуальні новини міста Сміла. Підписуйся на Telegram-канал @smila_novosti.">
-  <meta name="twitter:image" content="https://smila.online/og-image.jpg">
+  <meta name="twitter:image" content="https://seaconversion-debug.github.io/smila-online/og-image.jpg">
 
   <!-- PWA -->
   <link rel="manifest" href="manifest.json">
@@ -45,10 +47,17 @@
   <meta name="apple-mobile-web-app-title" content="Новини Сміла">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
-  <!-- PRECONNECT -->
+  <!-- PRELOAD критичні ресурси -->
+  <link rel="preload" href="style.css" as="style">
+  <link rel="preload" href="main.js" as="script">
+
+  <!-- PRECONNECT / DNS-PREFETCH -->
   <link rel="preconnect" href="https://t.me">
+  <link rel="dns-prefetch" href="https://t.me">
   <link rel="preconnect" href="https://siren.pp.ua">
+  <link rel="dns-prefetch" href="https://siren.pp.ua">
   <link rel="preconnect" href="https://wttr.in">
+  <link rel="dns-prefetch" href="https://wttr.in">
 
   <!-- FAVICON -->
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='16' fill='%23005BBB'/><rect y='16' width='32' height='16' fill='%23FFD700'/><text x='16' y='22' text-anchor='middle' font-size='14' fill='white'>С</text></svg>">
@@ -58,12 +67,12 @@
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "@id": "https://smila.online/#website",
-    "url": "https://smila.online/",
+    "@id": "https://seaconversion-debug.github.io/smila-online/#website",
+    "url": "https://seaconversion-debug.github.io/smila-online/",
     "name": "СмілаОнлайн",
     "description": "Новини Сміла сьогодні — актуальні події міста Сміла, Черкаська область",
     "inLanguage": "uk-UA",
-    "publisher": { "@id": "https://smila.online/#organization" },
+    "publisher": { "@id": "https://seaconversion-debug.github.io/smila-online/#organization" },
     "potentialAction": {
       "@type": "SearchAction",
       "target": { "@type": "EntryPoint", "urlTemplate": "https://t.me/smila_novosti?q={search_term_string}" },
@@ -77,13 +86,13 @@
   {
     "@context": "https://schema.org",
     "@type": "NewsMediaOrganization",
-    "@id": "https://smila.online/#organization",
+    "@id": "https://seaconversion-debug.github.io/smila-online/#organization",
     "name": "СмілаОнлайн",
     "alternateName": "Сміла Онлайн",
-    "url": "https://smila.online/",
+    "url": "https://seaconversion-debug.github.io/smila-online/",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://smila.online/og-image.jpg",
+      "url": "https://seaconversion-debug.github.io/smila-online/og-image.jpg",
       "width": 1200,
       "height": 630
     },
@@ -114,7 +123,7 @@
       "https://t.me/autobazar_smila",
       "https://t.me/smila_neruhomist"
     ],
-    "publishingPrinciples": "https://smila.online/#about",
+    "publishingPrinciples": "https://seaconversion-debug.github.io/smila-online/#about",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Сміла",
@@ -208,13 +217,13 @@
         "@type": "ListItem",
         "position": 1,
         "name": "Головна",
-        "item": "https://smila.online/"
+        "item": "https://seaconversion-debug.github.io/smila-online/"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Новини Сміла",
-        "item": "https://smila.online/#news"
+        "item": "https://seaconversion-debug.github.io/smila-online/#news"
       }
     ]
   }
@@ -245,6 +254,7 @@
       <nav class="nav" aria-label="Головна навігація" itemscope itemtype="https://schema.org/SiteNavigationElement">
         <a href="#news" class="nav__link" itemprop="url"><span itemprop="name">Новини</span></a>
         <a href="#contacts" class="nav__link" itemprop="url"><span itemprop="name">Контакти</span></a>
+        <a href="#about-city" class="nav__link" itemprop="url"><span itemprop="name">Про місто</span></a>
         <a href="#faq" class="nav__link" itemprop="url"><span itemprop="name">FAQ</span></a>
         <a href="#about" class="nav__link" itemprop="url"><span itemprop="name">Про нас</span></a>
       </nav>
@@ -437,6 +447,69 @@
           <meta itemprop="addressLocality" content="Сміла">
         </article>
 
+      </div>
+    </div>
+  </section>
+
+  <!-- ПРО МІСТО СМІЛА (SEO-секція) -->
+  <section id="about-city" class="about-city section" aria-label="Про місто Сміла" itemscope itemtype="https://schema.org/City">
+    <meta itemprop="name" content="Сміла">
+    <meta itemprop="containedInPlace" content="Черкаська область">
+    <div class="container">
+      <div class="section__header">
+        <h2 class="section__title">Місто Сміла — Черкаська область</h2>
+        <p class="section__desc" itemprop="description">Все що потрібно знати про Смілянщину</p>
+      </div>
+      <div class="about-city__content">
+        <div class="about-city__text">
+          <p>
+            <strong>Сміла</strong> — місто в <strong>Черкаській області України</strong>, розташоване за 20 км від обласного центру — міста Черкаси.
+            Населення <strong>Смілянської громади</strong> становить близько 65 000 мешканців. Місто є важливим промисловим,
+            культурним та освітнім центром Черкащини.
+          </p>
+          <p>
+            <strong>СмілаОнлайн</strong> — місцеве медіа <strong>міста Сміла</strong>, яке щодня публікує актуальні новини Смілянщини:
+            рішення міської ради, надзвичайні події, ЖКГ, відключення електроенергії та водопостачання,
+            культурні заходи, спортивні події та важливі оголошення для мешканців.
+          </p>
+          <p>
+            Слідкуй за <a href="https://t.me/smila_novosti" target="_blank" rel="noopener"><strong>новинами Сміли</strong></a> в Telegram,
+            шукай <a href="https://t.me/robota_smila_ua" target="_blank" rel="noopener"><strong>роботу в Смілі</strong></a>,
+            переглядай <a href="https://t.me/autobazar_smila" target="_blank" rel="noopener"><strong>авто в Смілі</strong></a>
+            та оголошення про <a href="https://t.me/smila_neruhomist" target="_blank" rel="noopener"><strong>нерухомість у Смілі</strong></a> —
+            все в одному місці на СмілаОнлайн.
+          </p>
+        </div>
+        <div class="about-city__facts" aria-label="Факти про Смілу">
+          <div class="city-fact">
+            <span class="city-fact__icon" aria-hidden="true">🏙️</span>
+            <div>
+              <strong>~65 000</strong>
+              <span>мешканців</span>
+            </div>
+          </div>
+          <div class="city-fact">
+            <span class="city-fact__icon" aria-hidden="true">📍</span>
+            <div>
+              <strong>20 км</strong>
+              <span>від Черкас</span>
+            </div>
+          </div>
+          <div class="city-fact">
+            <span class="city-fact__icon" aria-hidden="true">🗺️</span>
+            <div>
+              <strong>Черкаська обл.</strong>
+              <span>Україна</span>
+            </div>
+          </div>
+          <div class="city-fact">
+            <span class="city-fact__icon" aria-hidden="true">📅</span>
+            <div>
+              <strong>1638</strong>
+              <span>рік заснування</span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -652,6 +725,8 @@
       </div>
     </div>
   </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Повернутися на початок сторінки">↑</button>
 
   <script src="main.js" defer></script>
 </body>
