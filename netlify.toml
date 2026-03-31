@@ -1,0 +1,87 @@
+# netlify.toml — Сміла Онлайн
+# Deploy: git push → Netlify auto-build (no build step needed)
+
+[build]
+  publish = "."        # Static site root — deploy as-is
+  # No build command needed for pure static HTML
+
+# === Redirects ===
+[[redirects]]
+  from = "/novosti"
+  to = "https://t.me/smila_novosti"
+  status = 302
+
+[[redirects]]
+  from = "/robota"
+  to = "https://t.me/robota_smila_ua"
+  status = 302
+
+[[redirects]]
+  from = "/avto"
+  to = "https://t.me/autobazar_smila"
+  status = 302
+
+[[redirects]]
+  from = "/neruhomist"
+  to = "https://t.me/smila_neruhomist"
+  status = 302
+
+[[redirects]]
+  from = "/bot"
+  to = "https://t.me/SmilaGobot"
+  status = 302
+
+# 404 fallback
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 404
+
+# === HTTP Headers ===
+
+# HTML — no-cache for SEO freshness
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+# CSS & JS — cache 1 year (hash-busted by filename)
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Images
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sitemap
+[[headers]]
+  for = "/sitemap.xml"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+    Content-Type = "application/xml; charset=utf-8"
+
+# Robots
+[[headers]]
+  for = "/robots.txt"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+
+# Security headers for all
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-XSS-Protection = "1; mode=block"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' https://telegram.org; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; connect-src 'self' https://t.me; frame-src https://t.me https://telegram.org;"

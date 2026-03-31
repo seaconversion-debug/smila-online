@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://smila.online/sitemap.xml
+
+# Block common spam crawlers
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+User-agent: DotBot
+Disallow: /

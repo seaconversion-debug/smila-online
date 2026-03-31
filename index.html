@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Сміла Онлайн — Новини, Вакансії, Авто, Нерухомість</title>
+  <meta name="description" content="Офіційний сайт мережі Telegram-каналів міста Сміла. Актуальні новини, вакансії, автобазар та нерухомість Смілянщини. Підписуйся на канали та залишайся в курсі!">
+  <meta name="keywords" content="Сміла, новини Сміла, вакансії Сміла, нерухомість Сміла, автобазар Сміла, Черкаська область, Смілянщина">
+  <meta name="author" content="Сміла Онлайн">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://smila.online/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://smila.online/">
+  <meta property="og:title" content="Сміла Онлайн — Новини, Вакансії, Авто, Нерухомість">
+  <meta property="og:description" content="Мережа Telegram-каналів міста Сміла. Будь у курсі всіх подій Смілянщини.">
+  <meta property="og:image" content="https://smila.online/og-image.jpg">
+  <meta property="og:locale" content="uk_UA">
+  <meta property="og:site_name" content="Сміла Онлайн">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Сміла Онлайн — Новини, Вакансії, Авто, Нерухомість">
+  <meta name="twitter:description" content="Мережа Telegram-каналів міста Сміла. Будь у курсі всіх подій Смілянщини.">
+  <meta name="twitter:image" content="https://smila.online/og-image.jpg">
+
+  <!-- Telegram -->
+  <meta name="telegram:channel" content="@smila_novosti">
+
+  <!-- Preconnect -->
+  <link rel="preconnect" href="https://t.me">
+
+  <!-- Favicon (inline SVG as data URI для швидкості) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='16' fill='%23005BBB'/><rect y='16' width='32' height='16' fill='%23FFD700'/><text x='16' y='22' text-anchor='middle' font-size='14' fill='white'>С</text></svg>">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://smila.online/#website",
+        "url": "https://smila.online/",
+        "name": "Сміла Онлайн",
+        "description": "Мережа Telegram-каналів міста Сміла",
+        "inLanguage": "uk-UA",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://t.me/smila_novosti",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://smila.online/#organization",
+        "name": "Сміла Онлайн",
+        "url": "https://smila.online/",
+        "logo": "https://smila.online/og-image.jpg",
+        "sameAs": [
+          "https://t.me/smila_novosti",
+          "https://t.me/robota_smila_ua",
+          "https://t.me/autobazar_smila",
+          "https://t.me/smila_neruhomist"
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Сміла",
+          "addressRegion": "Черкаська область",
+          "addressCountry": "UA"
+        }
+      }
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="/" class="logo" aria-label="Сміла Онлайн — головна">
+        <span class="logo__icon">🇺🇦</span>
+        <span class="logo__text">Сміла<strong>Онлайн</strong></span>
+      </a>
+      <nav class="nav" aria-label="Головна навігація">
+        <a href="#channels" class="nav__link">Канали</a>
+        <a href="#bot" class="nav__link">Бот</a>
+        <a href="#about" class="nav__link">Про нас</a>
+      </nav>
+      <a href="https://t.me/SmilaGobot" target="_blank" rel="noopener" class="btn btn--header">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.248l-2.04 9.607c-.15.672-.543.836-1.1.52l-3.04-2.24-1.467 1.41c-.163.163-.3.3-.615.3l.22-3.11 5.667-5.12c.247-.22-.054-.342-.383-.122L7.19 14.43l-3.01-.94c-.655-.204-.667-.655.136-.97l11.74-4.525c.545-.197 1.022.133.506.253z" fill="currentColor"/></svg>
+        Написати боту
+      </a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" aria-label="Головний банер">
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <div class="hero__badge">📍 Сміла, Черкаська область</div>
+        <h1 class="hero__title">
+          Все про місто —<br>
+          <span class="hero__accent">в одному місці</span>
+        </h1>
+        <p class="hero__desc">
+          Мережа Telegram-каналів для мешканців Смілянщини.
+          Новини, вакансії, авто та нерухомість — оновлюється щодня.
+        </p>
+        <div class="hero__actions">
+          <a href="#channels" class="btn btn--primary">Переглянути канали</a>
+          <a href="https://t.me/SmilaGobot" target="_blank" rel="noopener" class="btn btn--outline">
+            Запустити бота
+          </a>
+        </div>
+        <div class="hero__stats">
+          <div class="stat">
+            <span class="stat__num">4</span>
+            <span class="stat__label">Канали</span>
+          </div>
+          <div class="stat__divider"></div>
+          <div class="stat">
+            <span class="stat__num">5000+</span>
+            <span class="stat__label">Підписників</span>
+          </div>
+          <div class="stat__divider"></div>
+          <div class="stat">
+            <span class="stat__num">щодня</span>
+            <span class="stat__label">Оновлення</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero__visual" aria-hidden="true">
+        <div class="phone-mockup">
+          <div class="phone-mockup__screen">
+            <div class="chat-preview">
+              <div class="chat-preview__header">
+                <div class="chat-preview__avatar">📰</div>
+                <div>
+                  <div class="chat-preview__name">Сміла | Новини</div>
+                  <div class="chat-preview__sub">5.2K підписників</div>
+                </div>
+              </div>
+              <div class="chat-preview__messages">
+                <div class="msg">🔴 Увага! Відключення води 01.04 з 9:00 до 15:00 на вул. Шевченка</div>
+                <div class="msg">📋 Засідання міської ради — сьогодні о 10:00</div>
+                <div class="msg">🌤️ Погода: +15°C, сонячно</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CHANNELS -->
+  <section id="channels" class="channels section">
+    <div class="container">
+      <div class="section__header">
+        <h2 class="section__title">Наші канали</h2>
+        <p class="section__desc">Підписуйся та отримуй актуальну інформацію першим</p>
+      </div>
+      <div class="channels__grid">
+
+        <!-- Новини -->
+        <article class="channel-card channel-card--news">
+          <div class="channel-card__top">
+            <div class="channel-card__icon" aria-hidden="true">📰</div>
+            <div class="channel-card__meta">
+              <h3 class="channel-card__title">Сміла | Новини</h3>
+              <div class="channel-card__handle">@smila_novosti</div>
+            </div>
+            <div class="channel-card__badge">5.2K</div>
+          </div>
+          <p class="channel-card__desc">
+            Головні новини міста: події, ЖКГ, комендантська година, відключення,
+            місцеве самоврядування та все, що важливо знати смілянам.
+          </p>
+          <ul class="channel-card__tags" aria-label="Теги">
+            <li class="tag">📍 Місцеві події</li>
+            <li class="tag">💡 ЖКГ</li>
+            <li class="tag">🏛️ Влада</li>
+          </ul>
+          <a href="https://t.me/smila_novosti" target="_blank" rel="noopener" class="btn btn--channel btn--blue">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.248l-2.04 9.607c-.15.672-.543.836-1.1.52l-3.04-2.24-1.467 1.41c-.163.163-.3.3-.615.3l.22-3.11 5.667-5.12c.247-.22-.054-.342-.383-.122L7.19 14.43l-3.01-.94c-.655-.204-.667-.655.136-.97l11.74-4.525c.545-.197 1.022.133.506.253z" fill="currentColor"/></svg>
+            Підписатися
+          </a>
+        </article>
+
+        <!-- Вакансії -->
+        <article class="channel-card channel-card--jobs">
+          <div class="channel-card__top">
+            <div class="channel-card__icon" aria-hidden="true">💼</div>
+            <div class="channel-card__meta">
+              <h3 class="channel-card__title">Робота у Смілі</h3>
+              <div class="channel-card__handle">@robota_smila_ua</div>
+            </div>
+            <div class="channel-card__badge">2.8K</div>
+          </div>
+          <p class="channel-card__desc">
+            Актуальні вакансії та пошук роботи в Смілі та районі. Всі сфери:
+            виробництво, торгівля, послуги, IT, медицина, освіта.
+          </p>
+          <ul class="channel-card__tags" aria-label="Теги">
+            <li class="tag">👷 Виробництво</li>
+            <li class="tag">🛒 Торгівля</li>
+            <li class="tag">💻 IT</li>
+          </ul>
+          <a href="https://t.me/robota_smila_ua" target="_blank" rel="noopener" class="btn btn--channel btn--green">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.248l-2.04 9.607c-.15.672-.543.836-1.1.52l-3.04-2.24-1.467 1.41c-.163.163-.3.3-.615.3l.22-3.11 5.667-5.12c.247-.22-.054-.342-.383-.122L7.19 14.43l-3.01-.94c-.655-.204-.667-.655.136-.97l11.74-4.525c.545-.197 1.022.133.506.253z" fill="currentColor"/></svg>
+            Підписатися
+          </a>
+        </article>
+
+        <!-- Авто -->
+        <article class="channel-card channel-card--auto">
+          <div class="channel-card__top">
+            <div class="channel-card__icon" aria-hidden="true">🚗</div>
+            <div class="channel-card__meta">
+              <h3 class="channel-card__title">Автобазар Сміла</h3>
+              <div class="channel-card__handle">@autobazar_smila</div>
+            </div>
+            <div class="channel-card__badge">1.9K</div>
+          </div>
+          <p class="channel-card__desc">
+            Продаж та купівля авто в Смілі. Оголошення від приватних осіб та автосалонів.
+            Мотоцикли, запчастини, шини, диски.
+          </p>
+          <ul class="channel-card__tags" aria-label="Теги">
+            <li class="tag">🚙 Легкові</li>
+            <li class="tag">🏍️ Мото</li>
+            <li class="tag">🔧 Запчастини</li>
+          </ul>
+          <a href="https://t.me/autobazar_smila" target="_blank" rel="noopener" class="btn btn--channel btn--orange">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.248l-2.04 9.607c-.15.672-.543.836-1.1.52l-3.04-2.24-1.467 1.41c-.163.163-.3.3-.615.3l.22-3.11 5.667-5.12c.247-.22-.054-.342-.383-.122L7.19 14.43l-3.01-.94c-.655-.204-.667-.655.136-.97l11.74-4.525c.545-.197 1.022.133.506.253z" fill="currentColor"/></svg>
+            Підписатися
+          </a>
+        </article>
+
+        <!-- Нерухомість -->
+        <article class="channel-card channel-card--realty">
+          <div class="channel-card__top">
+            <div class="channel-card__icon" aria-hidden="true">🏠</div>
+            <div class="channel-card__meta">
+              <h3 class="channel-card__title">Нерухомість Сміла</h3>
+              <div class="channel-card__handle">@smila_neruhomist</div>
+            </div>
+            <div class="channel-card__badge">1.5K</div>
+          </div>
+          <p class="channel-card__desc">
+            Продаж та оренда нерухомості в Смілі. Квартири, будинки, земельні ділянки,
+            комерційна нерухомість від власників та агентів.
+          </p>
+          <ul class="channel-card__tags" aria-label="Теги">
+            <li class="tag">🏢 Квартири</li>
+            <li class="tag">🏡 Будинки</li>
+            <li class="tag">🔑 Оренда</li>
+          </ul>
+          <a href="https://t.me/smila_neruhomist" target="_blank" rel="noopener" class="btn btn--channel btn--purple">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.248l-2.04 9.607c-.15.672-.543.836-1.1.52l-3.04-2.24-1.467 1.41c-.163.163-.3.3-.615.3l.22-3.11 5.667-5.12c.247-.22-.054-.342-.383-.122L7.19 14.43l-3.01-.94c-.655-.204-.667-.655.136-.97l11.74-4.525c.545-.197 1.022.133.506.253z" fill="currentColor"/></svg>
+            Підписатися
+          </a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- BOT SECTION -->
+  <section id="bot" class="bot-section section">
+    <div class="container bot-section__inner">
+      <div class="bot-section__content">
+        <div class="bot-section__label">🤖 Telegram бот</div>
+        <h2 class="bot-section__title">SmilaGo Bot</h2>
+        <p class="bot-section__desc">
+          Зручний бот для мешканців Смілянщини. Отримуй інформацію, залишай оголошення
+          та залишайся на зв'язку з містом — прямо в Telegram.
+        </p>
+        <ul class="bot-features">
+          <li class="bot-feature">
+            <span class="bot-feature__icon">📢</span>
+            <div>
+              <strong>Розміщення оголошень</strong>
+              <span>Продай або купи щось швидко</span>
+            </div>
+          </li>
+          <li class="bot-feature">
+            <span class="bot-feature__icon">🔔</span>
+            <div>
+              <strong>Підписка на новини</strong>
+              <span>Вибирай тематику сповіщень</span>
+            </div>
+          </li>
+          <li class="bot-feature">
+            <span class="bot-feature__icon">📍</span>
+            <div>
+              <strong>Корисні контакти</strong>
+              <span>Служби, лікарні, транспорт</span>
+            </div>
+          </li>
+          <li class="bot-feature">
+            <span class="bot-feature__icon">🆘</span>
+            <div>
+              <strong>Екстрені повідомлення</strong>
+              <span>Тривоги, відключення, ЖКГ</span>
+            </div>
+          </li>
+        </ul>
+        <a href="https://t.me/SmilaGobot" target="_blank" rel="noopener" class="btn btn--primary btn--large">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.248l-2.04 9.607c-.15.672-.543.836-1.1.52l-3.04-2.24-1.467 1.41c-.163.163-.3.3-.615.3l.22-3.11 5.667-5.12c.247-.22-.054-.342-.383-.122L7.19 14.43l-3.01-.94c-.655-.204-.667-.655.136-.97l11.74-4.525c.545-.197 1.022.133.506.253z" fill="currentColor"/></svg>
+          Запустити @SmilaGobot
+        </a>
+      </div>
+      <div class="bot-section__visual" aria-hidden="true">
+        <div class="bot-card">
+          <div class="bot-card__header">
+            <div class="bot-card__avatar">🤖</div>
+            <div>
+              <div class="bot-card__name">SmilaGo Bot</div>
+              <div class="bot-card__status">● онлайн</div>
+            </div>
+          </div>
+          <div class="bot-card__chat">
+            <div class="bot-msg bot-msg--bot">
+              Привіт! Я SmilaGo Bot 👋<br>
+              Чим можу допомогти?
+            </div>
+            <div class="bot-cmd-list">
+              <div class="bot-cmd">📰 Новини</div>
+              <div class="bot-cmd">💼 Вакансії</div>
+              <div class="bot-cmd">🚗 Авто</div>
+              <div class="bot-cmd">🏠 Нерухомість</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about section">
+    <div class="container about__inner">
+      <div class="section__header">
+        <h2 class="section__title">Про проєкт</h2>
+        <p class="section__desc">Смілянський медіа-хаб для всіх мешканців міста</p>
+      </div>
+      <div class="about__grid">
+        <div class="about-card">
+          <div class="about-card__icon">🎯</div>
+          <h3>Місія</h3>
+          <p>Зробити інформацію про Смілу доступною, швидкою та зручною для кожного мешканця міста та Смілянського району.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-card__icon">📡</div>
+          <h3>Медіамережа</h3>
+          <p>Чотири тематичних канали та бот утворюють єдину екосистему місцевих медіа. Кожен знайде корисне для себе.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-card__icon">🤝</div>
+          <h3>Співпраця</h3>
+          <p>Розміщуємо оголошення, рекламу та партнерські матеріали. Зв'яжіться з нами через @SmilaGobot.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner" aria-label="Заклик до дії">
+    <div class="container cta-banner__inner">
+      <div class="cta-banner__text">
+        <h2>Залишайся в курсі подій Смілянщини</h2>
+        <p>Підписуйся на наші канали та не пропускай нічого важливого</p>
+      </div>
+      <div class="cta-banner__actions">
+        <a href="https://t.me/smila_novosti" target="_blank" rel="noopener" class="btn btn--yellow">
+          📰 Новини Сміли
+        </a>
+        <a href="https://t.me/SmilaGobot" target="_blank" rel="noopener" class="btn btn--outline-white">
+          🤖 SmilaGo Bot
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="/" class="logo logo--footer" aria-label="Сміла Онлайн">
+          <span class="logo__icon">🇺🇦</span>
+          <span class="logo__text">Сміла<strong>Онлайн</strong></span>
+        </a>
+        <p class="footer__tagline">Місцеві медіа для Смілянщини</p>
+      </div>
+      <nav class="footer__channels" aria-label="Наші канали">
+        <h4 class="footer__nav-title">Канали</h4>
+        <ul>
+          <li><a href="https://t.me/smila_novosti" target="_blank" rel="noopener">📰 @smila_novosti</a></li>
+          <li><a href="https://t.me/robota_smila_ua" target="_blank" rel="noopener">💼 @robota_smila_ua</a></li>
+          <li><a href="https://t.me/autobazar_smila" target="_blank" rel="noopener">🚗 @autobazar_smila</a></li>
+          <li><a href="https://t.me/smila_neruhomist" target="_blank" rel="noopener">🏠 @smila_neruhomist</a></li>
+        </ul>
+      </nav>
+      <div class="footer__contact">
+        <h4 class="footer__nav-title">Контакти</h4>
+        <ul>
+          <li><a href="https://t.me/SmilaGobot" target="_blank" rel="noopener">🤖 @SmilaGobot</a></li>
+          <li><span>📍 Сміла, Черкаська обл.</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p>© 2024 Сміла Онлайн. Всі права захищені.</p>
+        <p>Зроблено з ❤️ для мешканців Смілянщини</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
