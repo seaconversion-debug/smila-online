@@ -1,0 +1,34 @@
+name: Оновлення стрічки новин
+
+on:
+  schedule:
+    # Кожні 2 години з 06:00 до 22:00 UTC (08:00–00:00 Київ)
+    - cron: '0 6,8,10,12,14,16,18,20,22 * * *'
+  workflow_dispatch: # ручний запуск
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch news from Telegram channels
+        run: node scripts/fetch-news.js
+        working-directory: .
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "Claw Bot"
+          git config user.email "bot@smila.online"
+          git add data/news.json
+          git diff --staged --quiet || git commit -m "🔄 Оновлення новин $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push

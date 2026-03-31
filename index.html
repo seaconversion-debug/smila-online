@@ -88,6 +88,7 @@
       </a>
       <nav class="nav" aria-label="Головна навігація">
         <a href="#channels" class="nav__link">Канали</a>
+        <a href="#news" class="nav__link">Новини</a>
         <a href="#bot" class="nav__link">Бот</a>
         <a href="#about" class="nav__link">Про нас</a>
       </nav>
@@ -266,6 +267,52 @@
           </a>
         </article>
 
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWS FEED -->
+  <section id="news" class="news-feed section">
+    <div class="container">
+      <div class="section__header">
+        <h2 class="section__title">Стрічка новин</h2>
+        <p class="section__desc">Останні публікації з усіх каналів — оновлюється автоматично</p>
+      </div>
+
+      <!-- Фільтри -->
+      <div class="news-filters" role="tablist" aria-label="Фільтр каналів">
+        <button class="news-filter news-filter--active" data-channel="all" role="tab" aria-selected="true">
+          🗞 Всі
+        </button>
+        <button class="news-filter" data-channel="smila_novosti" role="tab" aria-selected="false">
+          📰 Новини
+        </button>
+        <button class="news-filter news-filter--jobs" data-channel="robota_smila_ua" role="tab" aria-selected="false">
+          💼 Вакансії
+        </button>
+        <button class="news-filter news-filter--auto" data-channel="autobazar_smila" role="tab" aria-selected="false">
+          🚗 Авто
+        </button>
+        <button class="news-filter news-filter--realty" data-channel="smila_neruhomist" role="tab" aria-selected="false">
+          🏠 Нерухомість
+        </button>
+      </div>
+
+      <!-- Картки -->
+      <div class="news-grid" id="newsGrid">
+        <!-- Skeleton -->
+        <div class="news-skeleton"></div>
+        <div class="news-skeleton"></div>
+        <div class="news-skeleton"></div>
+        <div class="news-skeleton"></div>
+        <div class="news-skeleton"></div>
+        <div class="news-skeleton"></div>
+      </div>
+
+      <!-- Завантажити ще -->
+      <div class="news-load-more" id="newsLoadMore" style="display:none">
+        <button class="btn btn--outline" id="loadMoreBtn">Показати ще</button>
+        <p class="news-updated" id="newsUpdatedAt"></p>
       </div>
     </div>
   </section>
