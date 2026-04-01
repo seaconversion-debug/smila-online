@@ -77,25 +77,48 @@ if ('IntersectionObserver' in window && fadeTargets.length) {
   const CHERKASY_REGION_ID = 24;
 
   async function checkAlert() {
-    try {
-      const r = await fetch(`https://siren.pp.ua/api/v3/alerts/${CHERKASY_REGION_ID}`, {
-        signal: AbortSignal.timeout(8000),
-        headers: { 'Accept': 'application/json' }
-      });
-      if (!r.ok) throw new Error('err');
-      const data = await r.json();
-      const region = Array.isArray(data) ? data[0] : data;
-      const alerts = region?.activeAlerts || [];
-      const isActive = alerts.length > 0;
+    // Пробуємо кілька API по черзі
+    const APIS = [
+      // API 1: sirens.in.ua (безкоштовний, без реєстрації)
+      async () => {
+        const r = await fetch('https://sirens.in.ua/api/v1/', {
+          signal: AbortSignal.timeout(8000)
+        });
+        if (!r.ok) throw new Error('err');
+        const data = await r.json();
+        // Шукаємо Черкаську область (regionId=24 або назва)
+        const region = Array.isArray(data)
+          ? data.find(x => x.regionId === '24' || x.regionId === 24 || /черкас/i.test(x.regionName || ''))
+          : null;
+        return { active: !!(region?.alarmStatus === 'Active' || region?.alert) };
+      },
+      // API 2: siren.pp.ua з правильним заголовком
+      async () => {
+        const r = await fetch(`https://siren.pp.ua/api/v3/alerts/${CHERKASY_REGION_ID}`, {
+          signal: AbortSignal.timeout(8000),
+          headers: { 'Accept': 'application/json', 'Accept-Encoding': 'gzip, deflate, br' }
+        });
+        if (!r.ok) throw new Error('err');
+        const data = await r.json();
+        const region = Array.isArray(data) ? data[0] : data;
+        return { active: (region?.activeAlerts || []).length > 0 };
+      },
+    ];
 
-      dotEl.className = 'alert-bar__dot ' + (isActive ? 'alert-bar__dot--danger' : 'alert-bar__dot--safe');
-      textEl.textContent = isActive
-        ? '🔴 Повітряна тривога в Черкаській обл.'
-        : '🟢 Тривоги немає — Черкаська обл.';
-    } catch {
-      dotEl.className = 'alert-bar__dot alert-bar__dot--loading';
-      textEl.textContent = '⚠️ Статус тривоги недоступний';
+    for (const apiFn of APIS) {
+      try {
+        const { active } = await apiFn();
+        dotEl.className = 'alert-bar__dot ' + (active ? 'alert-bar__dot--danger' : 'alert-bar__dot--safe');
+        textEl.textContent = active
+          ? '🔴 Повітряна тривога в Черкаській обл.'
+          : '🟢 Тривоги немає — Черкаська обл.';
+        return; // успіх — виходимо
+      } catch { /* пробуємо наступний */ }
     }
+
+    // Всі API не відповіли
+    dotEl.className = 'alert-bar__dot alert-bar__dot--loading';
+    textEl.textContent = '⚠️ Статус тривоги тимчасово недоступний';
   }
 
   async function checkWeather() {
