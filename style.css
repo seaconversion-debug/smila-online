@@ -1435,6 +1435,22 @@ button:focus-visible {
 }
 
 /* ============================================
+   CHANNELS SECTION
+   ============================================ */
+.channels-section {
+  background: var(--gray);
+}
+
+/* ============================================
+   BOT SECTION
+   ============================================ */
+.bot-section__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* ============================================
    ABOUT SEO TEXT
    ============================================ */
 .about__seo-text {

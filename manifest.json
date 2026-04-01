@@ -1,14 +1,14 @@
 {
   "name": "СмілаОнлайн — Новини Сміла",
   "short_name": "Новини Сміла",
-  "description": "Актуальні новини міста Сміла, Черкаська область",
-  "start_url": "/smila-online/",
+  "description": "Актуальні новини, вакансії, авто та нерухомість міста Сміла, Черкаська область",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#005BBB",
   "lang": "uk",
   "dir": "ltr",
-  "scope": "/smila-online/",
+  "scope": "/",
   "orientation": "portrait-primary",
   "categories": ["news", "local"],
   "icons": [
@@ -24,7 +24,14 @@
       "name": "Новини Сміла",
       "short_name": "Новини",
       "description": "Читати новини Сміли",
-      "url": "/smila-online/#news",
+      "url": "/#news",
+      "icons": []
+    },
+    {
+      "name": "Вакансії Сміла",
+      "short_name": "Вакансії",
+      "description": "Знайти роботу в Смілі",
+      "url": "/#channels",
       "icons": []
     }
   ]

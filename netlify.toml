@@ -5,9 +5,14 @@
   publish = "."        # Static site root — deploy as-is
   # No build command needed for pure static HTML
 
-# === Redirects ===
+# === Redirects — зручні короткі посилання ===
 [[redirects]]
   from = "/novosti"
+  to = "https://t.me/smila_novosti"
+  status = 302
+
+[[redirects]]
+  from = "/novyny"
   to = "https://t.me/smila_novosti"
   status = 302
 
@@ -31,6 +36,16 @@
   to = "https://t.me/SmilaGobot"
   status = 302
 
+[[redirects]]
+  from = "/admin"
+  to = "https://t.me/Smila_admin"
+  status = 302
+
+[[redirects]]
+  from = "/reklama"
+  to = "https://t.me/Smila_admin"
+  status = 302
+
 # 404 fallback
 [[redirects]]
   from = "/*"
@@ -49,7 +64,7 @@
     Referrer-Policy = "strict-origin-when-cross-origin"
     Permissions-Policy = "camera=(), microphone=(), geolocation=()"
 
-# CSS & JS — cache 1 year (hash-busted by filename)
+# CSS & JS — cache 1 year
 [[headers]]
   for = "/*.css"
   [headers.values]
@@ -66,6 +81,27 @@
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
+[[headers]]
+  for = "/*.jpg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.png"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.svg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Data JSON — свіжі, але кешовані на 5 хв
+[[headers]]
+  for = "/data/*.json"
+  [headers.values]
+    Cache-Control = "public, max-age=300, stale-while-revalidate=600"
+
 # Sitemap
 [[headers]]
   for = "/sitemap.xml"
@@ -79,9 +115,9 @@
   [headers.values]
     Cache-Control = "public, max-age=86400"
 
-# Security headers for all
+# Security headers for all (з виправленим CSP — дозволяємо siren.pp.ua та wttr.in)
 [[headers]]
   for = "/*"
   [headers.values]
     X-XSS-Protection = "1; mode=block"
-    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' https://telegram.org; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; connect-src 'self' https://t.me; frame-src https://t.me https://telegram.org;"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; connect-src 'self' https://t.me https://siren.pp.ua https://wttr.in; frame-src https://t.me https://telegram.org; font-src 'self' data:;"

@@ -249,9 +249,26 @@ if ('IntersectionObserver' in window && fadeTargets.length) {
     .then(r => r.ok ? r.json() : null)
     .then(stats => {
       if (!stats) return;
-      const el = document.getElementById('statSubscribers');
-      if (el && stats.smila_novosti) {
-        el.textContent = Number(stats.smila_novosti).toLocaleString('uk-UA') + '+';
+
+      // Hero stat — сума всіх підписників
+      const total = ['smila_novosti','robota_smila_ua','autobazar_smila','smila_neruhomist']
+        .reduce((sum, k) => sum + (Number(stats[k]) || 0), 0);
+      const heroEl = document.getElementById('statSubscribers');
+      if (heroEl && total > 0) {
+        heroEl.textContent = total.toLocaleString('uk-UA') + '+';
+      }
+
+      // Badges на картках каналів
+      const fmt = n => n ? Number(n).toLocaleString('uk-UA') : '–';
+      const badgeMap = {
+        'badge-news':  stats.smila_novosti,
+        'badge-jobs':  stats.robota_smila_ua,
+        'badge-auto':  stats.autobazar_smila,
+        'badge-realty': stats.smila_neruhomist,
+      };
+      for (const [id, val] of Object.entries(badgeMap)) {
+        const el = document.getElementById(id);
+        if (el) el.textContent = fmt(val);
       }
     })
     .catch(() => {});
@@ -355,7 +372,9 @@ document.querySelectorAll('.faq-question').forEach(btn => {
 // ============================================================
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/sw.js').catch(() => {});
+    // Визначаємо base path автоматично (GitHub Pages subpath vs кастомний домен)
+    const swPath = new URL('sw.js', window.location.href).pathname;
+    navigator.serviceWorker.register(swPath).catch(() => {});
   });
 }
 

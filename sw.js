@@ -3,12 +3,14 @@
  * Кешує статику, news.json оновлює в мережі
  */
 
-const CACHE = 'smila-v1';
-const STATIC = ['/', '/index.html', '/style.css', '/main.js', '/manifest.json'];
+const CACHE = 'smila-v2';
+const STATIC = ['/index.html', '/style.css', '/main.js', '/manifest.json'];
 
 self.addEventListener('install', e => {
   e.waitUntil(
-    caches.open(CACHE).then(c => c.addAll(STATIC)).then(() => self.skipWaiting())
+    caches.open(CACHE)
+      .then(c => c.addAll(STATIC))
+      .then(() => self.skipWaiting())
   );
 });
 
@@ -35,7 +37,7 @@ self.addEventListener('fetch', e => {
     return;
   }
 
-  // Зовнішні запити (tg, siren, wttr): без кешу
+  // Зовнішні запити: без кешу
   if (url.origin !== location.origin) return;
 
   // Статика: cache-first

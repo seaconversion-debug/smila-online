@@ -3,9 +3,9 @@ Allow: /
 Crawl-delay: 1
 
 # Sitemap
-Sitemap: https://seaconversion-debug.github.io/smila-online/sitemap.xml
+Sitemap: https://smila.online/sitemap.xml
 
-# Дозволити важливих ботів
+# Важливі боти — без затримки
 User-agent: Googlebot
 Allow: /
 Crawl-delay: 0
@@ -21,6 +21,9 @@ User-agent: facebookexternalhit
 Allow: /
 
 User-agent: TelegramBot
+Allow: /
+
+User-agent: LinkedInBot
 Allow: /
 
 # Обмежити агресивні скрепери

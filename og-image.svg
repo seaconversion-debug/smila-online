@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f5ff"/>
+      <stop offset="100%" style="stop-color:#fff9e6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  
+  <!-- Blue top stripe -->
+  <rect width="1200" height="8" fill="#005BBB"/>
+  <!-- Yellow bottom stripe -->
+  <rect y="622" width="1200" height="8" fill="#FFD700"/>
+  
+  <!-- Left blue accent bar -->
+  <rect width="12" height="630" fill="#005BBB"/>
+  
+  <!-- Logo area -->
+  <text x="80" y="120" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="28" font-weight="500" fill="#2c3e50">🇺🇦 Сміла</text>
+  <text x="80" y="120" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="28" font-weight="800" fill="#005BBB" dx="72">Онлайн</text>
+  
+  <!-- Main headline -->
+  <text x="80" y="240" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="72" font-weight="900" fill="#1a1a2e" letter-spacing="-2">Новини Сміла</text>
+  <text x="80" y="330" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="72" font-weight="900" fill="#005BBB" letter-spacing="-2">сьогодні онлайн</text>
+  
+  <!-- Underline accent -->
+  <rect x="80" y="345" width="480" height="6" fill="#FFD700" rx="3"/>
+  
+  <!-- Description -->
+  <text x="80" y="410" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-size="28" fill="#6b7a99">Актуальні події Смілянщини · Telegram-канали міста</text>
+  
+  <!-- Channel badges -->
+  <rect x="80" y="460" width="220" height="50" rx="25" fill="#005BBB"/>
+  <text x="190" y="491" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="white" font-weight="600">📰 Новини</text>
+  
+  <rect x="316" y="460" width="220" height="50" rx="25" fill="#16a34a"/>
+  <text x="426" y="491" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="white" font-weight="600">💼 Вакансії</text>
+  
+  <rect x="552" y="460" width="220" height="50" rx="25" fill="#d97706"/>
+  <text x="662" y="491" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="white" font-weight="600">🚗 Авто</text>
+  
+  <rect x="788" y="460" width="280" height="50" rx="25" fill="#7c3aed"/>
+  <text x="928" y="491" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="white" font-weight="600">🏠 Нерухомість</text>
+  
+  <!-- Location badge -->
+  <rect x="80" y="544" width="300" height="46" rx="23" fill="rgba(0,91,187,0.1)"/>
+  <text x="230" y="573" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#005BBB" font-weight="600">📍 Сміла, Черкаська обл.</text>
+  
+  <!-- Right decorative phone mockup shape -->
+  <rect x="950" y="80" width="180" height="320" rx="30" fill="#1a1a2e" opacity="0.85"/>
+  <rect x="965" y="95" width="150" height="290" rx="22" fill="#f0f2f5"/>
+  <!-- Telegram header in mockup -->
+  <rect x="965" y="95" width="150" height="50" rx="22" fill="#005BBB"/>
+  <rect x="965" y="117" width="150" height="28" fill="#005BBB"/>
+  <text x="1040" y="127" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="white" font-weight="700">Сміла | Новини</text>
+  <!-- Mock messages -->
+  <rect x="972" y="158" width="136" height="32" rx="8" fill="white"/>
+  <text x="1040" y="179" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">🔴 Повітряна тривога</text>
+  <rect x="972" y="198" width="136" height="32" rx="8" fill="white"/>
+  <text x="1040" y="219" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">💡 Відключення світла</text>
+  <rect x="972" y="238" width="136" height="32" rx="8" fill="white"/>
+  <text x="1040" y="259" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">🏛️ Засідання ради</text>
+  <rect x="972" y="278" width="136" height="32" rx="8" fill="white"/>
+  <text x="1040" y="299" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">⚡ Аварія на мережі</text>
+  <rect x="972" y="318" width="136" height="32" rx="8" fill="white"/>
+  <text x="1040" y="339" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">📢 Новини міста</text>
+  
+  <!-- Floating badge -->
+  <rect x="860" y="340" width="160" height="60" rx="12" fill="#FFD700"/>
+  <text x="940" y="366" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#1a1a2e" font-weight="700">4 канали</text>
+  <text x="940" y="387" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#1a1a2e">Telegram мережа</text>
+</svg>
