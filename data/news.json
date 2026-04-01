@@ -1,7 +1,35 @@
 {
-  "updatedAt": "2026-04-01T09:10:49.312Z",
-  "total": 46,
+  "updatedAt": "2026-04-01T11:01:30.641Z",
+  "total": 48,
   "items": [
+    {
+      "id": "autobazar_smila_255",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/255",
+      "title": "Машина Nexia 2007",
+      "body": "💰 39 520 грн 🛣 328 тис. км | 🔧 Механіка | ⛽ Газ/Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #газбензин #до100к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-01T10:00:53+00:00",
+      "ts": 1775037653000
+    },
+    {
+      "id": "autobazar_smila_254",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/254",
+      "title": "Уаз 220695-460 буханка",
+      "body": "💰 285 425 грн 🛣 328 тис. км | 🔧 Механіка | ⛽ Газ/Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #газбензин #до300к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-01T10:00:51+00:00",
+      "ts": 1775037651000
+    },
     {
       "id": "autobazar_smila_253",
       "channel": "autobazar_smila",
