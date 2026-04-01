@@ -245,8 +245,15 @@ if ('IntersectionObserver' in window && fadeTargets.length) {
     if (loadMoreBtn) loadMoreBtn.style.display = hasMore ? 'inline-flex' : 'none';
   }
 
+  // Канали що НЕ показуємо в новинній стрічці (тільки у своїх секціях)
+  const EXCLUDE_FROM_NEWS = ['autobazar_smila', 'smila_neruhomist'];
+
   function applyFilter(channel) {
-    filtered = channel === 'all' ? allItems : allItems.filter(i => i.channel === channel);
+    if (channel === 'all') {
+      filtered = allItems.filter(i => !EXCLUDE_FROM_NEWS.includes(i.channel));
+    } else {
+      filtered = allItems.filter(i => i.channel === channel);
+    }
     shown = 0;
     grid.innerHTML = '';
     grid.setAttribute('aria-busy', 'true');
