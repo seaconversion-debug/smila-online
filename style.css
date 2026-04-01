@@ -4,6 +4,99 @@
    Blue: #005BBB | Yellow: #FFD700 | White: #FFFFFF
    ============================================ */
 
+/* ============================================
+   NEWS TICKER
+   ============================================ */
+.ticker-wrap {
+  background: #0f172a;
+  color: #e2e8f0;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  z-index: 201;
+  border-bottom: 1px solid rgba(255,215,0,0.2);
+  user-select: none;
+}
+
+.ticker-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #FFD700;
+  color: #0f172a;
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  padding: 0 14px;
+  height: 100%;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.ticker-inner {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.ticker-track {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  animation: ticker-scroll 40s linear infinite;
+  will-change: transform;
+}
+
+.ticker-track:hover,
+.ticker-wrap:hover .ticker-track {
+  animation-play-state: paused;
+}
+
+.ticker-item {
+  font-size: 0.82rem;
+  padding: 0 40px;
+  color: #cbd5e1;
+  cursor: pointer;
+  transition: color 0.2s;
+  position: relative;
+}
+
+.ticker-item::after {
+  content: '·';
+  position: absolute;
+  right: 0;
+  color: #FFD700;
+  font-size: 1.2rem;
+  line-height: 1;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.ticker-item:hover {
+  color: #FFD700;
+}
+
+.ticker-item a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@keyframes ticker-scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@media (max-width: 480px) {
+  .ticker-label { padding: 0 10px; font-size: 0.65rem; }
+  .ticker-item  { font-size: 0.78rem; padding: 0 28px; }
+}
+
 /* === RESET & BASE === */
 *, *::before, *::after {
   box-sizing: border-box;

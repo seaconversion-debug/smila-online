@@ -378,6 +378,42 @@ if ('serviceWorker' in navigator) {
   });
 }
 
+// ============================================================
+// NEWS TICKER
+// ============================================================
+(function initTicker() {
+  const track = document.getElementById('tickerTrack');
+  if (!track) return;
+
+  fetch('data/news.json?v=' + Math.floor(Date.now() / 300000))
+    .then(r => r.ok ? r.json() : null)
+    .then(data => {
+      if (!data?.items?.length) return;
+
+      // Беремо 12 свіжих заголовків з усіх каналів
+      const items = data.items.slice(0, 12);
+
+      const icons = { smila_novosti: '📰', robota_smila_ua: '💼', autobazar_smila: '🚗', smila_neruhomist: '🏠' };
+
+      // Генеруємо HTML — дублюємо для безперервного скролу
+      const buildItems = () => items.map(item => {
+        const icon = icons[item.channel] || '📌';
+        const title = item.title.length > 72 ? item.title.slice(0, 72) + '…' : item.title;
+        const url = `${item.postUrl}?utm_source=smila_online&utm_medium=ticker&utm_campaign=news`;
+        return `<span class="ticker-item"><a href="${url}" target="_blank" rel="noopener">${icon} ${title}</a></span>`;
+      }).join('');
+
+      // Подвоюємо для loop ефекту
+      track.innerHTML = buildItems() + buildItems();
+
+      // Налаштовуємо швидкість під кількість символів
+      const totalChars = items.reduce((s, i) => s + i.title.length, 0);
+      const duration = Math.max(30, Math.min(70, totalChars / 5));
+      track.style.animationDuration = duration + 's';
+    })
+    .catch(() => {});
+})();
+
 // UTM на всіх Telegram посиланнях (якщо ще немає)
 document.querySelectorAll('a[href^="https://t.me/"]').forEach(link => {
   try {
