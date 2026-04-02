@@ -1,7 +1,21 @@
 {
-  "updatedAt": "2026-04-02T14:59:56.883Z",
-  "total": 57,
+  "updatedAt": "2026-04-02T16:59:09.761Z",
+  "total": 58,
   "items": [
+    {
+      "id": "autobazar_smila_265",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/265",
+      "title": "ВАЗ 2108 продам.",
+      "body": "💰 24 092 грн 📅 1997 р. | 🛣 195 тис. км | 🔧 Механіка | ⛽ Газ/Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #ваз #газбензин #до100к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-02T16:00:55+00:00",
+      "ts": 1775145655000
+    },
     {
       "id": "autobazar_smila_264",
       "channel": "autobazar_smila",
