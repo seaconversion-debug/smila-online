@@ -1,7 +1,35 @@
 {
-  "updatedAt": "2026-04-02T09:02:41.727Z",
-  "total": 55,
+  "updatedAt": "2026-04-02T10:54:52.013Z",
+  "total": 57,
   "items": [
+    {
+      "id": "autobazar_smila_264",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/264",
+      "title": "ВАЗ 2106 газ і бензин",
+      "body": "💰 13 132 грн 🛣 199 тис. км | 🔧 Механіка | ⛽ Газ/Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #ваз #газбензин #до100к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-02T10:00:54+00:00",
+      "ts": 1775124054000
+    },
+    {
+      "id": "autobazar_smila_263",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/263",
+      "title": "CHERY Jaggi на ходу",
+      "body": "💰 35 018 грн 🛣 195 тис. км | 🔧 Механіка | ⛽ Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #до100к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-02T10:00:52+00:00",
+      "ts": 1775124052000
+    },
     {
       "id": "autobazar_smila_262",
       "channel": "autobazar_smila",
