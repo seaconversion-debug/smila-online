@@ -1,7 +1,35 @@
 {
-  "updatedAt": "2026-04-03T14:47:46.686Z",
-  "total": 59,
+  "updatedAt": "2026-04-03T16:46:36.484Z",
+  "total": 61,
   "items": [
+    {
+      "id": "autobazar_smila_268",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/268",
+      "title": "Продам срочно недорого hyundai tiburon",
+      "body": "💰 183 532 грн 🛣 270 тис. км | 🔧 Механіка | ⛽ Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #hyundai #до300к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-03T16:00:55+00:00",
+      "ts": 1775232055000
+    },
+    {
+      "id": "autobazar_smila_267",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/267",
+      "title": "Срочно недорого продам volkswagen polo",
+      "body": "💰 166 053 грн 🛣 270 тис. км | 🔧 Автомат | ⛽ Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #volkswagen #до300к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-03T16:00:53+00:00",
+      "ts": 1775232053000
+    },
     {
       "id": "autobazar_smila_266",
       "channel": "autobazar_smila",
