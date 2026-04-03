@@ -1,7 +1,21 @@
 {
-  "updatedAt": "2026-04-03T08:59:46.429Z",
-  "total": 58,
+  "updatedAt": "2026-04-03T10:46:57.703Z",
+  "total": 59,
   "items": [
+    {
+      "id": "autobazar_smila_266",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/266",
+      "title": "Продам авто Hyundai tucson 2006 року",
+      "body": "💰 152 943 грн 📅 2006 р. | 🛣 495 тис. км | 🔧 Механіка | ⛽ Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #hyundai #до300к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-03T10:00:52+00:00",
+      "ts": 1775210452000
+    },
     {
       "id": "autobazar_smila_265",
       "channel": "autobazar_smila",
