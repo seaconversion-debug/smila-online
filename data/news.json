@@ -1,7 +1,49 @@
 {
-  "updatedAt": "2026-04-03T22:37:33.831Z",
-  "total": 61,
+  "updatedAt": "2026-04-04T07:05:53.924Z",
+  "total": 64,
   "items": [
+    {
+      "id": "autobazar_smila_271",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/271",
+      "title": "Geely MC Cross 2014",
+      "body": "💰 148 574 грн 📅 2014 р. | 🛣 148 тис. км | 🔧 Механіка | ⛽ Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #до300к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-04T06:01:00+00:00",
+      "ts": 1775282460000
+    },
+    {
+      "id": "autobazar_smila_270",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/270",
+      "title": "Продам фольксваген бора",
+      "body": "💰 183 532 грн 📅 2005 р. | 🛣 260 тис. км | 🔧 Механіка | ⛽ Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #до300к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-04T06:00:58+00:00",
+      "ts": 1775282458000
+    },
+    {
+      "id": "autobazar_smila_269",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/269",
+      "title": "Прадам Ауді А6 С6 2009р.2л.турбо Власник",
+      "body": "💰 421 687 грн 📅 2009 р. | 🛣 241 тис. км | 🔧 Автомат | ⛽ Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #audi #преміум 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-04T06:00:56+00:00",
+      "ts": 1775282456000
+    },
     {
       "id": "autobazar_smila_268",
       "channel": "autobazar_smila",
