@@ -1,7 +1,35 @@
 {
-  "updatedAt": "2026-04-04T14:36:32.870Z",
-  "total": 69,
+  "updatedAt": "2026-04-04T16:40:21.715Z",
+  "total": 71,
   "items": [
+    {
+      "id": "autobazar_smila_278",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/278",
+      "title": "Продам Mitsubishi Lancer X 2008 року 2.0 Газ/Бензин",
+      "body": "💰 321 181 грн 📅 2008 р. | 🛣 125 тис. км | 🔧 Автомат | ⛽ Газ/Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #газбензин #преміум 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-04T16:01:01+00:00",
+      "ts": 1775318461000
+    },
+    {
+      "id": "autobazar_smila_277",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/277",
+      "title": "Renault Scenic 2 1.6 бензин",
+      "body": "💰 150 759 грн 🛣 280 тис. км | 🔧 Механіка | ⛽ Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #renault #до300к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-04T16:00:58+00:00",
+      "ts": 1775318458000
+    },
     {
       "id": "autobazar_smila_276",
       "channel": "autobazar_smila",
