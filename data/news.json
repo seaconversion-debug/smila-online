@@ -1,7 +1,35 @@
 {
-  "updatedAt": "2026-04-05T10:38:58.113Z",
-  "total": 72,
+  "updatedAt": "2026-04-05T13:05:29.969Z",
+  "total": 74,
   "items": [
+    {
+      "id": "autobazar_smila_281",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/281",
+      "title": "Продам ваз 2107 на газу",
+      "body": "💰 24 500 грн 🛣 69 тис. км | 🔧 Механіка | ⛽ Газ/Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #ваз #газбензин #до100к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-05T11:00:54+00:00",
+      "ts": 1775386854000
+    },
+    {
+      "id": "autobazar_smila_280",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/280",
+      "title": "Ваз 2104 на повному ходу Газ/бензин",
+      "body": "💰 25 000 грн 🛣 260 тис. км | 🔧 Механіка | ⛽ Газ/Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #ваз #газбензин #до100к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-05T11:00:52+00:00",
+      "ts": 1775386852000
+    },
     {
       "id": "autobazar_smila_279",
       "channel": "autobazar_smila",
