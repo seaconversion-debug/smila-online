@@ -1,7 +1,35 @@
 {
-  "updatedAt": "2026-04-05T14:37:31.266Z",
-  "total": 74,
+  "updatedAt": "2026-04-05T16:40:57.003Z",
+  "total": 76,
   "items": [
+    {
+      "id": "autobazar_smila_283",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/283",
+      "title": "BMW x5 e70 не фарбований",
+      "body": "💰 812 785 грн 🛣 250 тис. км | 🔧 Автомат | ⛽ Дизель 👉 Дивитись на OLX #авто #автобазар #Сміла #bmw #дизель #преміум 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-05T16:01:01+00:00",
+      "ts": 1775404861000
+    },
+    {
+      "id": "autobazar_smila_282",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/282",
+      "title": "Opel Astra Н Опель Астра 2012",
+      "body": "💰 262 145 грн 🛣 250 тис. км | 🔧 Механіка | ⛽ Дизель 👉 Дивитись на OLX #авто #автобазар #Сміла #opel #дизель #до300к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-05T16:00:58+00:00",
+      "ts": 1775404858000
+    },
     {
       "id": "autobazar_smila_281",
       "channel": "autobazar_smila",
