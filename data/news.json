@@ -1,7 +1,21 @@
 {
-  "updatedAt": "2026-04-06T09:12:59.534Z",
-  "total": 78,
+  "updatedAt": "2026-04-06T11:01:08.959Z",
+  "total": 79,
   "items": [
+    {
+      "id": "autobazar_smila_286",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/286",
+      "title": "Peugeot 3008 2012 1.6 еHdi",
+      "body": "💰 327 736 грн 📅 2012 р. | 🛣 230 тис. км | 🔧 Автомат | ⛽ Дизель 👉 Дивитись на OLX #авто #автобазар #Сміла #peugeot #дизель #преміум 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-06T10:01:11+00:00",
+      "ts": 1775469671000
+    },
     {
       "id": "autobazar_smila_285",
       "channel": "autobazar_smila",
