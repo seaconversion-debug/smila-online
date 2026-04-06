@@ -1,7 +1,35 @@
 {
-  "updatedAt": "2026-04-05T22:35:24.973Z",
-  "total": 76,
+  "updatedAt": "2026-04-06T07:49:37.065Z",
+  "total": 78,
   "items": [
+    {
+      "id": "autobazar_smila_285",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/285",
+      "title": "Авто Mercedes Benz Vito Viano Long 8+1",
+      "body": "💰 262 189 грн 📅 2006 р. | 🛣 400 тис. км | 🔧 Механіка | ⛽ Дизель 👉 Дивитись на OLX #авто #автобазар #Сміла #mercedes #дизель #до300к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-06T05:01:00+00:00",
+      "ts": 1775451660000
+    },
+    {
+      "id": "autobazar_smila_284",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/284",
+      "title": "Продам ВАЗ 2110 16-клапанный мотор",
+      "body": "💰 56 764 грн 📅 2005 р. | 🛣 111 тис. км | 🔧 Механіка | ⛽ Газ/Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #ваз #газбензин #до100к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-06T05:00:58+00:00",
+      "ts": 1775451658000
+    },
     {
       "id": "autobazar_smila_283",
       "channel": "autobazar_smila",
