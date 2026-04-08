@@ -1,7 +1,49 @@
 {
-  "updatedAt": "2026-04-08T15:13:57.535Z",
-  "total": 100,
+  "updatedAt": "2026-04-08T17:08:12.368Z",
+  "total": 103,
   "items": [
+    {
+      "id": "autobazar_smila_310",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/310",
+      "title": "PEUGOT Expert 1.9",
+      "body": "💰 64 962 грн 🛣 320 тис. км | 🔧 Механіка | ⛽ Дизель 👉 Дивитись на OLX #авто #автобазар #Сміла #дизель #до100к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-08T16:01:06+00:00",
+      "ts": 1775664066000
+    },
+    {
+      "id": "autobazar_smila_309",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/309",
+      "title": "Продам ВАЗ 2110,2004 року",
+      "body": "💰 45 000 грн 📅 2004 р. | 🛣 265 тис. км | 🔧 Механіка | ⛽ Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #ваз #до100к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-08T16:01:04+00:00",
+      "ts": 1775664064000
+    },
+    {
+      "id": "autobazar_smila_308",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/308",
+      "title": "Уаз 452,469 буханка",
+      "body": "💰 40 000 грн 🛣 100 тис. км | 🔧 Механіка | ⛽ Газ/Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #газбензин #до100к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-08T16:01:01+00:00",
+      "ts": 1775664061000
+    },
     {
       "id": "autobazar_smila_307",
       "channel": "autobazar_smila",
