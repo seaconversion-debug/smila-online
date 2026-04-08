@@ -1,7 +1,35 @@
 {
-  "updatedAt": "2026-04-08T09:06:41.773Z",
-  "total": 98,
+  "updatedAt": "2026-04-08T11:00:54.990Z",
+  "total": 100,
   "items": [
+    {
+      "id": "autobazar_smila_307",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/307",
+      "title": "Audi A6C6 Рестайлінг 2009 рік",
+      "body": "💰 292 551 грн 📅 2009 р. | 🛣 304 тис. км | 🔧 Автомат | ⛽ Дизель 👉 Дивитись на OLX #авто #автобазар #Сміла #audi #дизель #до300к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-08T10:00:54+00:00",
+      "ts": 1775642454000
+    },
+    {
+      "id": "autobazar_smila_306",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/306",
+      "title": "Ваз 2121 нива 1984р.",
+      "body": "💰 70 000 грн 📅 1984 р. | 🛣 108 тис. км | 🔧 Механіка | ⛽ Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #ваз #до100к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-08T10:00:51+00:00",
+      "ts": 1775642451000
+    },
     {
       "id": "autobazar_smila_305",
       "channel": "autobazar_smila",
