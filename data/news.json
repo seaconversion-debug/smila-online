@@ -1,7 +1,21 @@
 {
-  "updatedAt": "2026-04-09T15:24:45.392Z",
-  "total": 113,
+  "updatedAt": "2026-04-09T17:11:41.509Z",
+  "total": 114,
   "items": [
+    {
+      "id": "autobazar_smila_321",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/321",
+      "title": "Продам ваз 2102 газ/бензин з свіжою страховкою",
+      "body": "💰 15 000 грн 🛣 77 тис. км | 🔧 Механіка | ⛽ Газ/Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #ваз #газбензин #до100к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-09T16:01:05+00:00",
+      "ts": 1775750465000
+    },
     {
       "id": "autobazar_smila_320",
       "channel": "autobazar_smila",
