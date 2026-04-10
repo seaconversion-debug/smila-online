@@ -1,7 +1,21 @@
 {
-  "updatedAt": "2026-04-10T09:14:39.418Z",
-  "total": 116,
+  "updatedAt": "2026-04-10T10:59:15.433Z",
+  "total": 117,
   "items": [
+    {
+      "id": "autobazar_smila_324",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/324",
+      "title": "Продам ваз 2105 газ/бензин 5ступка. Торг",
+      "body": "💰 17 500 грн 📅 1985 р. | 🛣 300 тис. км | 🔧 Механіка | ⛽ Газ/Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #ваз #газбензин #до100к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-10T10:01:00+00:00",
+      "ts": 1775815260000
+    },
     {
       "id": "autobazar_smila_323",
       "channel": "autobazar_smila",
