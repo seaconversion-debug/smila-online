@@ -1,7 +1,35 @@
 {
-  "updatedAt": "2026-04-09T22:46:03.459Z",
-  "total": 114,
+  "updatedAt": "2026-04-10T07:47:39.364Z",
+  "total": 116,
   "items": [
+    {
+      "id": "autobazar_smila_323",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/323",
+      "title": "Продам mazda 6 2018 рік 2.5 турбо в максимальній комплектації",
+      "body": "💰 945 725 грн 📅 2018 р. | 🛣 32 тис. км | 🔧 Автомат | ⛽ Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #mazda #преміум 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-10T05:00:53+00:00",
+      "ts": 1775797253000
+    },
+    {
+      "id": "autobazar_smila_322",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/322",
+      "title": "Опель Омега 2.0 бензин/газ (газ вписаний)",
+      "body": "💰 43 382 грн 📅 1987 р. | 🛣 289 тис. км | 🔧 Механіка | ⛽ Газ/Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #opel #газбензин #до100к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-10T05:00:51+00:00",
+      "ts": 1775797251000
+    },
     {
       "id": "autobazar_smila_321",
       "channel": "autobazar_smila",
