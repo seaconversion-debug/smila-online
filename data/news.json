@@ -1,7 +1,49 @@
 {
-  "updatedAt": "2026-04-11T14:38:48.988Z",
-  "total": 127,
+  "updatedAt": "2026-04-11T16:41:02.917Z",
+  "total": 130,
   "items": [
+    {
+      "id": "autobazar_smila_337",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/337",
+      "title": "Продам ауді 100 с3",
+      "body": "💰 19 522 грн 📅 1986 р. | 🛣 300 тис. км | 🔧 Механіка | ⛽ Газ/Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #audi #газбензин #до100к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-11T16:01:27+00:00",
+      "ts": 1775923287000
+    },
+    {
+      "id": "autobazar_smila_336",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/336",
+      "title": "Газ 31105 406.2 2006 рік",
+      "body": "💰 65 073 грн 📅 2006 р. | 🛣 304 тис. км | 🔧 Механіка | ⛽ Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #газ #до100к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-11T16:01:25+00:00",
+      "ts": 1775923285000
+    },
+    {
+      "id": "autobazar_smila_335",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/335",
+      "title": "Продам daewoo lanos мотор 1.5 газ бензин",
+      "body": "💰 67 242 грн 🛣 222 тис. км | 🔧 Механіка | ⛽ Газ/Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #daewoo #газбензин #до100к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-11T16:01:22+00:00",
+      "ts": 1775923282000
+    },
     {
       "id": "autobazar_smila_334",
       "channel": "autobazar_smila",
