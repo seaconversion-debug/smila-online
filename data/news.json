@@ -1,7 +1,35 @@
 {
-  "updatedAt": "2026-04-11T10:38:26.329Z",
-  "total": 125,
+  "updatedAt": "2026-04-11T13:06:09.920Z",
+  "total": 127,
   "items": [
+    {
+      "id": "autobazar_smila_334",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/334",
+      "title": "Ваз 21099 з незначними нюансами",
+      "body": "💰 60 735 грн 🛣 000 тис. км | 🔧 Механіка | ⛽ Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #ваз #до100к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-11T11:01:17+00:00",
+      "ts": 1775905277000
+    },
+    {
+      "id": "autobazar_smila_333",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/333",
+      "title": "Продам Опель віваро 1.9",
+      "body": "💰 342 719 грн 🛣 500 тис. км | 🔧 Механіка | ⛽ Дизель 👉 Дивитись на OLX #авто #автобазар #Сміла #opel #дизель #преміум 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-11T11:01:15+00:00",
+      "ts": 1775905275000
+    },
     {
       "id": "autobazar_smila_332",
       "channel": "autobazar_smila",
