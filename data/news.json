@@ -1,7 +1,35 @@
 {
-  "updatedAt": "2026-04-12T10:41:54.209Z",
-  "total": 130,
+  "updatedAt": "2026-04-12T13:08:39.707Z",
+  "total": 132,
   "items": [
+    {
+      "id": "autobazar_smila_339",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/339",
+      "title": "Ваз 2107",
+      "body": "💰 15 000 грн 📅 1995 р. | 🛣 1 тис. км | 🔧 Механіка | ⛽ Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #ваз #до100к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-12T11:02:03+00:00",
+      "ts": 1775991723000
+    },
+    {
+      "id": "autobazar_smila_338",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/338",
+      "title": "ЗАЗ Таврія 1102 на ходу",
+      "body": "💰 17 000 грн 📅 1990 р. | 🛣 150 тис. км | 🔧 Механіка | ⛽ Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #заз #до100к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-12T11:02:00+00:00",
+      "ts": 1775991720000
+    },
     {
       "id": "autobazar_smila_337",
       "channel": "autobazar_smila",
