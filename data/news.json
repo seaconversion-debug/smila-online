@@ -1,7 +1,21 @@
 {
-  "updatedAt": "2026-04-12T14:42:26.937Z",
-  "total": 132,
+  "updatedAt": "2026-04-12T16:44:05.948Z",
+  "total": 133,
   "items": [
+    {
+      "id": "autobazar_smila_340",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/340",
+      "title": "Mitsubishi galant 9 Можливий обмін",
+      "body": "💰 238 602 грн 🛣 300 тис. км | 🔧 Автомат | ⛽ Газ/Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #газбензин #до300к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-12T16:02:47+00:00",
+      "ts": 1776009767000
+    },
     {
       "id": "autobazar_smila_339",
       "channel": "autobazar_smila",
