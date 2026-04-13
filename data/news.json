@@ -1,7 +1,35 @@
 {
-  "updatedAt": "2026-04-13T15:17:47.985Z",
-  "total": 140,
+  "updatedAt": "2026-04-13T17:07:32.047Z",
+  "total": 142,
   "items": [
+    {
+      "id": "autobazar_smila_349",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/349",
+      "title": "Ваз 2106, класика, Жигулі, шестерка",
+      "body": "💰 15 000 грн 🛣 87 тис. км | 🔧 Механіка | ⛽ Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #ваз #до100к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-13T16:01:05+00:00",
+      "ts": 1776096065000
+    },
+    {
+      "id": "autobazar_smila_348",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/348",
+      "title": "Ваз 2108 в хорошому стані",
+      "body": "💰 30 000 грн 🛣 230 тис. км | 🔧 Механіка | ⛽ Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #ваз #до100к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-13T16:01:03+00:00",
+      "ts": 1776096063000
+    },
     {
       "id": "autobazar_smila_347",
       "channel": "autobazar_smila",
