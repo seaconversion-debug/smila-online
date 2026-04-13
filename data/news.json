@@ -1,7 +1,35 @@
 {
-  "updatedAt": "2026-04-12T22:38:41.895Z",
-  "total": 133,
+  "updatedAt": "2026-04-13T08:10:24.282Z",
+  "total": 135,
   "items": [
+    {
+      "id": "autobazar_smila_342",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/342",
+      "title": "Пасат GL 5 на рідкісному моторі",
+      "body": "💰 62 904 грн 📅 1983 р. | 🛣 250 тис. км | 🔧 Механіка | ⛽ Газ/Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #газбензин #до100к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-13T05:01:05+00:00",
+      "ts": 1776056465000
+    },
+    {
+      "id": "autobazar_smila_341",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/341",
+      "title": "Джета на бойовому ходу.",
+      "body": "💰 49 890 грн 📅 1988 р. | 🛣 280 тис. км | 🔧 Механіка | ⛽ Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #до100к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-13T05:01:02+00:00",
+      "ts": 1776056462000
+    },
     {
       "id": "autobazar_smila_340",
       "channel": "autobazar_smila",
