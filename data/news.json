@@ -1,7 +1,35 @@
 {
-  "updatedAt": "2026-04-13T22:48:44.086Z",
-  "total": 142,
+  "updatedAt": "2026-04-14T07:52:35.407Z",
+  "total": 144,
   "items": [
+    {
+      "id": "autobazar_smila_351",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/351",
+      "title": "Продам VW е-гольф 2016",
+      "body": "💰 390 622 грн 📅 2016 р. | 🛣 110 тис. км | ⛽ Електро 👉 Дивитись на OLX #авто #автобазар #Сміла #volkswagen #електро #преміум 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-14T05:01:57+00:00",
+      "ts": 1776142917000
+    },
+    {
+      "id": "autobazar_smila_350",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/350",
+      "title": "Продам Volswagen Pasat Б7",
+      "body": "💰 475 257 грн 📅 2012 р. | 🛣 230 тис. км | 🔧 Механіка | ⛽ Дизель 👉 Дивитись на OLX #авто #автобазар #Сміла #дизель #преміум 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-14T05:01:55+00:00",
+      "ts": 1776142915000
+    },
     {
       "id": "autobazar_smila_349",
       "channel": "autobazar_smila",
