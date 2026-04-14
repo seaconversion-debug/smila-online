@@ -1,7 +1,49 @@
 {
-  "updatedAt": "2026-04-14T09:22:46.409Z",
-  "total": 144,
+  "updatedAt": "2026-04-14T11:06:42.830Z",
+  "total": 147,
   "items": [
+    {
+      "id": "autobazar_smila_354",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/354",
+      "title": "Продам Peugeot 605 на повному ходу",
+      "body": "💰 45 573 грн 🛣 394 тис. км | 🔧 Механіка | ⛽ Газ/Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #peugeot #газбензин #до100к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-14T10:01:29+00:00",
+      "ts": 1776160889000
+    },
+    {
+      "id": "autobazar_smila_353",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/353",
+      "title": "Продам вездеход танк для бездорожя",
+      "body": "💰 386 282 грн 🛣 100 тис. км | 🔧 Механіка | ⛽ Дизель 👉 Дивитись на OLX #авто #автобазар #Сміла #дизель #преміум 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-14T10:01:27+00:00",
+      "ts": 1776160887000
+    },
+    {
+      "id": "autobazar_smila_352",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/352",
+      "title": "Hyundai I30 в хорошо у стані",
+      "body": "💰 297 307 грн 🛣 267 тис. км | 🔧 Автомат | ⛽ Дизель 👉 Дивитись на OLX #авто #автобазар #Сміла #hyundai #дизель #до300к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-14T10:01:25+00:00",
+      "ts": 1776160885000
+    },
     {
       "id": "autobazar_smila_351",
       "channel": "autobazar_smila",
