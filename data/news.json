@@ -1,7 +1,49 @@
 {
-  "updatedAt": "2026-04-14T15:16:40.680Z",
-  "total": 147,
+  "updatedAt": "2026-04-14T17:14:17.574Z",
+  "total": 150,
   "items": [
+    {
+      "id": "autobazar_smila_357",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/357",
+      "title": "Продам Volkswagen CC",
+      "body": "💰 445 884 грн 🛣 254 тис. км | 🔧 Автомат | ⛽ Дизель 👉 Дивитись на OLX #авто #автобазар #Сміла #volkswagen #дизель #преміум 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-14T16:01:26+00:00",
+      "ts": 1776182486000
+    },
+    {
+      "id": "autobazar_smila_356",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/356",
+      "title": "Daewoo lanos 1,5 газ/бензин",
+      "body": "💰 100 052 грн 🛣 224 тис. км | 🔧 Механіка | ⛽ Газ/Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #daewoo #газбензин #до300к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-14T16:01:23+00:00",
+      "ts": 1776182483000
+    },
+    {
+      "id": "autobazar_smila_355",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/355",
+      "title": "Продам daewoo sens газ бензин любой вид переоформления",
+      "body": "💰 69 558 грн 🛣 222 тис. км | 🔧 Механіка | ⛽ Газ/Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #daewoo #газбензин #до100к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-14T16:01:20+00:00",
+      "ts": 1776182480000
+    },
     {
       "id": "autobazar_smila_354",
       "channel": "autobazar_smila",
