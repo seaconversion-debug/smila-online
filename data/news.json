@@ -1,7 +1,49 @@
 {
-  "updatedAt": "2026-04-16T15:43:00.755Z",
-  "total": 160,
+  "updatedAt": "2026-04-16T17:19:30.783Z",
+  "total": 163,
   "items": [
+    {
+      "id": "autobazar_smila_370",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/370",
+      "title": "Продам - Обміняю . Таурег",
+      "body": "💰 194 451 грн 📅 2006 р. | 🛣 317 тис. км | 🔧 Автомат | ⛽ Дизель 👉 Дивитись на OLX #авто #автобазар #Сміла #дизель #до300к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-16T16:00:56+00:00",
+      "ts": 1776355256000
+    },
+    {
+      "id": "autobazar_smila_369",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/369",
+      "title": "Audi A6 C4 2.8 газ/бенз 1996 автомат",
+      "body": "💰 121 634 грн 📅 1996 р. | 🛣 385 тис. км | 🔧 Автомат | ⛽ Газ/Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #audi #газбензин #до300к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-16T16:00:54+00:00",
+      "ts": 1776355254000
+    },
+    {
+      "id": "autobazar_smila_368",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/368",
+      "title": "Продам автомобиль",
+      "body": "💰 75 000 грн 🛣 170 тис. км | 🔧 Механіка | ⛽ Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #до100к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-16T16:00:52+00:00",
+      "ts": 1776355252000
+    },
     {
       "id": "autobazar_smila_367",
       "channel": "autobazar_smila",
