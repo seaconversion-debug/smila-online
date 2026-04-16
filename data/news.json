@@ -1,7 +1,21 @@
 {
-  "updatedAt": "2026-04-15T22:45:52.685Z",
-  "total": 154,
+  "updatedAt": "2026-04-16T07:53:33.683Z",
+  "total": 155,
   "items": [
+    {
+      "id": "autobazar_smila_362",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/362",
+      "title": "Opel Kadet 1.6 Дизель універсал Караван можлива Доставка по Україні",
+      "body": "💰 62 989 грн 📅 1986 р. | 🛣 200 тис. км | 🔧 Механіка | ⛽ Дизель 👉 Дивитись на OLX #авто #автобазар #Сміла #opel #дизель #до100к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-16T05:01:49+00:00",
+      "ts": 1776315709000
+    },
     {
       "id": "autobazar_smila_361",
       "channel": "autobazar_smila",
