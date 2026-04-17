@@ -1,7 +1,21 @@
 {
-  "updatedAt": "2026-04-16T22:45:29.670Z",
-  "total": 163,
+  "updatedAt": "2026-04-17T07:53:43.295Z",
+  "total": 164,
   "items": [
+    {
+      "id": "autobazar_smila_371",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/371",
+      "title": "Продам на ходу нічого робить непотрібно",
+      "body": "💰 12 000 грн 🛣 10 тис. км | 🔧 Механіка | ⛽ Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #до100к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-17T05:01:00+00:00",
+      "ts": 1776402060000
+    },
     {
       "id": "autobazar_smila_370",
       "channel": "autobazar_smila",
