@@ -1,7 +1,49 @@
 {
-  "updatedAt": "2026-04-17T14:58:51.935Z",
-  "total": 165,
+  "updatedAt": "2026-04-17T16:57:07.880Z",
+  "total": 168,
   "items": [
+    {
+      "id": "autobazar_smila_375",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/375",
+      "title": "Автомобіль Audi A6 C5 газ/бензин дуже гарний стан цікавить обмін на авто дешевше",
+      "body": "💰 166 033 грн 🛣 350 тис. км | 🔧 Механіка | ⛽ Газ/Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #audi #газбензин #до300к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-17T16:00:56+00:00",
+      "ts": 1776441656000
+    },
+    {
+      "id": "autobazar_smila_374",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/374",
+      "title": "Kia Pregio груз. 2003",
+      "body": "💰 104 863 грн 🛣 250 тис. км | 🔧 Механіка | ⛽ Дизель 👉 Дивитись на OLX #авто #автобазар #Сміла #kia #дизель #до300к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-17T16:00:54+00:00",
+      "ts": 1776441654000
+    },
+    {
+      "id": "autobazar_smila_373",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/373",
+      "title": "Продам ваз 2106 на ходу",
+      "body": "💰 27 000 грн 🛣 34 тис. км | 🔧 Механіка | ⛽ Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #ваз #до100к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-17T16:00:52+00:00",
+      "ts": 1776441652000
+    },
     {
       "id": "autobazar_smila_372",
       "channel": "autobazar_smila",
