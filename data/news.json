@@ -1,7 +1,21 @@
 {
-  "updatedAt": "2026-04-17T09:22:14.988Z",
-  "total": 164,
+  "updatedAt": "2026-04-17T11:00:40.837Z",
+  "total": 165,
   "items": [
+    {
+      "id": "autobazar_smila_372",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/372",
+      "title": "Mercedes ML270CDI",
+      "body": "💰 172 587 грн 🛣 420 тис. км | 🔧 Автомат | ⛽ Дизель 👉 Дивитись на OLX #авто #автобазар #Сміла #mercedes #дизель #до300к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-17T10:00:50+00:00",
+      "ts": 1776420050000
+    },
     {
       "id": "autobazar_smila_371",
       "channel": "autobazar_smila",
