@@ -1,7 +1,35 @@
 {
-  "updatedAt": "2026-04-18T14:43:09.500Z",
-  "total": 172,
+  "updatedAt": "2026-04-18T16:46:45.388Z",
+  "total": 174,
   "items": [
+    {
+      "id": "autobazar_smila_381",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/381",
+      "title": "Kia Sportage 2015рік",
+      "body": "💰 554 628 грн 📅 2015 р. | 🛣 97 тис. км | 🔧 Автомат | ⛽ Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #kia #преміум 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-18T16:00:58+00:00",
+      "ts": 1776528058000
+    },
+    {
+      "id": "autobazar_smila_380",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/380",
+      "title": "Продам славуту 2005 рік з переоформленням",
+      "body": "💰 23 500 грн 📅 2005 р. | 🛣 95 тис. км | 🔧 Механіка | ⛽ Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #до100к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-18T16:00:55+00:00",
+      "ts": 1776528055000
+    },
     {
       "id": "autobazar_smila_379",
       "channel": "autobazar_smila",
