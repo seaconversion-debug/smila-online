@@ -1,7 +1,35 @@
 {
-  "updatedAt": "2026-04-17T22:43:39.686Z",
-  "total": 168,
+  "updatedAt": "2026-04-18T07:14:00.822Z",
+  "total": 170,
   "items": [
+    {
+      "id": "autobazar_smila_377",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/377",
+      "title": "Славута на ходу.",
+      "body": "💰 28 612 грн 📅 2005 р. | 🛣 199 тис. км | 🔧 Механіка | ⛽ Газ/Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #заз #газбензин #до100к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-18T06:00:58+00:00",
+      "ts": 1776492058000
+    },
+    {
+      "id": "autobazar_smila_376",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/376",
+      "title": "Автомобіль BMW I320 D E-46 2001 автомат",
+      "body": "💰 136 456 грн 📅 2001 р. | 🛣 220 тис. км | 🔧 Автомат | ⛽ Дизель 👉 Дивитись на OLX #авто #автобазар #Сміла #bmw #дизель #до300к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-18T06:00:55+00:00",
+      "ts": 1776492055000
+    },
     {
       "id": "autobazar_smila_375",
       "channel": "autobazar_smila",
