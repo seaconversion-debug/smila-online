@@ -1,7 +1,35 @@
 {
-  "updatedAt": "2026-04-18T10:44:51.302Z",
-  "total": 170,
+  "updatedAt": "2026-04-18T13:09:33.931Z",
+  "total": 172,
   "items": [
+    {
+      "id": "autobazar_smila_379",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/379",
+      "title": "Опель омега 2003 рік",
+      "body": "💰 176 072 грн 📅 2003 р. | 🛣 300 тис. км | 🔧 Автомат | ⛽ Дизель 👉 Дивитись на OLX #авто #автобазар #Сміла #opel #дизель #до300к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-18T11:00:54+00:00",
+      "ts": 1776510054000
+    },
+    {
+      "id": "autobazar_smila_378",
+      "channel": "autobazar_smila",
+      "channelName": "Автобазар Сміла",
+      "channelIcon": "🚗",
+      "channelColor": "orange",
+      "channelTg": "https://t.me/autobazar_smila",
+      "postUrl": "https://t.me/autobazar_smila/378",
+      "title": "ГАЗ М20 Перемога",
+      "body": "💰 154 063 грн 🛣 1 тис. км | 🔧 Механіка | ⛽ Газ/Бензин 👉 Дивитись на OLX #авто #автобазар #Сміла #газ #газбензин #до300к 📢 @autobazar_smila",
+      "photo": null,
+      "date": "2026-04-18T11:00:52+00:00",
+      "ts": 1776510052000
+    },
     {
       "id": "autobazar_smila_377",
       "channel": "autobazar_smila",
